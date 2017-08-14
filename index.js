@@ -20,7 +20,7 @@ function sayHiToGrandma(string){
   var log = string;
   var hear = "I can't hear you";
   if(log == string.toLowerCase()){
-  
+
     return console.log(hear.toLowerCase());
   } else if (log == string.toUpperCase()){
     return hear.toUpperCase();
