@@ -2,9 +2,9 @@ function shout(string){
   return string.toUpperCase();
 }
 
-function whispering(string){
+function whisper(string){
  return string.toLowerCase();
 }
 
 shout('hello');
-whispering('HELLO');
+whisper('HELLO');
