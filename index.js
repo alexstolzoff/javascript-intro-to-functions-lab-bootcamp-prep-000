@@ -11,5 +11,28 @@ function logShout(string){
   console.log(log);
 }
 
+function logWhisper(string){
+  var log = string.toLowerCase();
+  console.log(log);
+}
+
+function sayHiToGrandma(string){
+  var log = string;
+  var hear = "I can't hear you";
+  if(log == string.toLowerCase()){
+  
+    return console.log(hear.toLowerCase());
+  } else if (log == string.toUpperCase()){
+    return hear.toUpperCase();
+  }else if(log == "I love you, Grandma"){
+    return "I love you, too";
+  }
+}
+
 shout('hello');
 whisper('HELLO');
+logShout('hello');
+logWhisper('HELLO');
+sayHiToGrandma('hello');
+sayHiToGrandma("HELLO");
+sayHiToGrandma("I love you, Grandma");
